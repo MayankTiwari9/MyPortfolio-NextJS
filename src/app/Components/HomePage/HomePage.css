@@ -1,0 +1,34 @@
+#home {
+    text-align: center;
+    margin: -10vmax;
+    padding: 20px;
+    animation: backgroundAnimation 10s infinite;
+    height: 100vh;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% { background-color: #ffadad; }
+    25% { background-color: #ffd6a5; }
+    50% { background-color: #fdffb6; }
+    75% { background-color: #caffbf; }
+    100% { background-color: #9bf6ff; }
+  }
+  
+  .animate-text {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: typing 4s steps(40, end), blink-caret 0.75s step-end 4s forwards;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  
