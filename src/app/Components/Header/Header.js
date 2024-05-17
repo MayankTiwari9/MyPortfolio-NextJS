@@ -18,9 +18,9 @@ const Header = () => {
           <NavbarToggle aria-controls="responsive-navbar-nav" />
           <NavbarCollapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <NavLink href="#projects">Projects</NavLink>
-              <NavLink href="#resume">Resume</NavLink>
               <NavLink href="#about">About</NavLink>
+              <NavLink href="#experience">Experience</NavLink>
+              <NavLink href="#projects">Projects</NavLink>
               <NavLink href="#skills">Skills</NavLink>
             </Nav>
           </NavbarCollapse>  

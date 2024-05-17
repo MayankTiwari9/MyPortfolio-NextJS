@@ -15,7 +15,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="about-main d-flex justify-content-center align-items-center text-white bg-dark "
+      className="about-main d-flex justify-content-center align-items-center  text-white bg-dark "
     >
       <div className="d-flex justify-content-center align-items-center w-50">
         <Image
@@ -25,14 +25,13 @@ const About = () => {
         />
       </div>
       <div className="d-flex justify-content-center align-items-center flex-column w-50">
-        <h1>About Me</h1>
+        <h1 className="text-6xl">About Me</h1>
         <p>
-          My name is Mayank Tiwari. A passionate and detail-oriented software
-          developer. Proficient in modern technologies like JavaScript, React,
-          Next.Js and Node.js, with a strong focus on clean code and innovative
-          solutions. Committed to continuous learning and staying up-to-date
-          with industry trends. Enthusiastic about collaborating with
-          cross-functional teams to drive project success.
+          Hello! I'm Mayank, a creative and driven web developer. I thrive on
+          turning imaginative ideas into digital realities, constantly seeking
+          innovative ways to blend design and technology. I possess a strong
+          foundation in FRONT-END development, as well as a keen eye for
+          responsive design and user-centered interfaces.
         </p>
         <Button onClick={handleResumeClick}>Resume</Button>
       </div>
