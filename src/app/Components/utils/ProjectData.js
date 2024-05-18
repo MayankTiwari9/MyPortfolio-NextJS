@@ -21,8 +21,7 @@ const projects = [
     href: "https://github.com/MayankTiwari9/Expense-Tracker",
     description:
       "Designed and deployed an Expense Tracker website with Firebase integration, ensuring secure real-time data storage. Implemented user-friendly features, robust authentication, and a responsive interface for efficient expense tracking.",
-    imageUrl:
-      "/projectImages/ExpenseTracker.png",
+    imageUrl: "/projectImages/ExpenseTracker.png",
   },
   {
     id: 4,
@@ -30,8 +29,7 @@ const projects = [
     href: "https://github.com/MayankTiwari9/WeatherApp",
     description:
       "Created a responsive weather app with real-time conditions and OpenWeatherMap integration. Facilitated location-based weather searches through a mobile-responsive design.",
-      imageUrl:
-        "/projectImages/Weather-app.png",
+    imageUrl: "/projectImages/Weather-app.png",
   },
 ];
 

@@ -7,17 +7,16 @@ import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import "./globals.css";
 
-
 export default function Home() {
   return (
     <main className="app">
-      <Header/>
-      <HomePage/>
-      <About/>
-      <Experience/>
-      <Projects/>
-      <Skills/>
-      <Footer/>
+      <Header />
+      <HomePage />
+      <About />
+      <Experience />
+      <Projects />
+      <Skills />
+      <Footer />
     </main>
   );
 }

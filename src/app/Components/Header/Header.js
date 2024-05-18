@@ -12,18 +12,24 @@ import {
 const Header = () => {
   return (
     <div>
-      <Navbar  collapseOnSelect expand="lg" className="px-3 fixed-top navbar-trransparent">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        className="px-3 fixed-top navbar-transparent"
+      >
         <Container>
-          <NavbarBrand className="navbar-brand" href="#home">Mayank</NavbarBrand>
+          <NavbarBrand className="navbar-brand" href="#home">
+            Mayank
+          </NavbarBrand>
           <NavbarToggle aria-controls="responsive-navbar-nav" />
           <NavbarCollapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <NavLink href="#about">About</NavLink>
+              <NavLink href="#about ">About</NavLink>
               <NavLink href="#experience">Experience</NavLink>
               <NavLink href="#projects">Projects</NavLink>
               <NavLink href="#skills">Skills</NavLink>
             </Nav>
-          </NavbarCollapse>  
+          </NavbarCollapse>
         </Container>
       </Navbar>
     </div>
